@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#183b2c">
   <title>Crop Practices | Field Notes India</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
   <script src="practices.js" defer></script>
 </head>
 <body>
@@ -16,10 +17,14 @@
       <span class="brand-mark" aria-hidden="true">F</span>
       <span>FIELD NOTES <span class="brand-light">INDIA</span></span>
     </a>
-    <nav aria-label="Main navigation">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-navigation" aria-label="Main navigation">
       <a href="index.html#overview">India snapshot</a>
       <a href="index.html#crops">Crop library</a>
-      <a class="nav-book" href="Package_of_Practices_India.md">Markdown book <span aria-hidden="true">↗</span></a>
+      <a href="about.html">About</a>
+      <a class="nav-book" href="student.html">Student login</a>
     </nav>
   </header>
 
@@ -100,7 +105,7 @@
   <footer class="site-footer">
     <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">F</span><span>FIELD NOTES <span class="brand-light">INDIA</span></span></a>
     <p>Made for learning. Check local recommendations before field application.</p>
-    <a href="#main">Back to top ↑</a>
+    <div class="footer-links"><a href="about.html">About us</a><a href="privacy.html">Privacy policy</a><a href="student.html">Student login</a><a href="#main">Back to top ↑</a></div>
   </footer>
 </body>
 </html>

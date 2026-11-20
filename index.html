@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#183b2c">
   <title>Field Notes India | Crop Practices</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -16,11 +17,15 @@
       <span class="brand-mark" aria-hidden="true">F</span>
       <span>FIELD NOTES <span class="brand-light">INDIA</span></span>
     </a>
-    <nav aria-label="Main navigation">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-navigation" aria-label="Main navigation">
       <a href="#overview">India snapshot</a>
       <a href="#crops">Crop library</a>
       <a href="practices.html">Field practices</a>
-      <a class="nav-book" href="practices.html">Open practices <span aria-hidden="true">↗</span></a>
+      <a href="about.html">About</a>
+      <a class="nav-book" href="student.html">Student login</a>
     </nav>
   </header>
 
@@ -119,6 +124,44 @@
       <a class="button button-dark" href="practices.html">Browse complete crop practices <span aria-hidden="true">↗</span></a>
     </section>
 
+    <section class="learning-section" id="learning-notes">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">STUDENT FIELD NOTES</p>
+          <h2>Useful ideas for every growing season</h2>
+          <p class="section-intro">Start with sound observation and local evidence. Use these notes as a study checklist, then explore the crop guides for more detail.</p>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card">
+            <span class="learning-number">01 · SOIL</span>
+            <h3>Test before you amend</h3>
+            <p>Record soil texture, drainage and a recent soil-test result. Base lime, nutrients and other amendments on test results and local advice.</p>
+          </article>
+          <article class="learning-card">
+            <span class="learning-number">02 · SEED</span>
+            <h3>Choose for your location</h3>
+            <p>Check that seed is suitable for your district, season, water supply and crop duration. Use certified or trusted seed and follow the label.</p>
+          </article>
+          <article class="learning-card">
+            <span class="learning-number">03 · WATER</span>
+            <h3>Watch the crop and the soil</h3>
+            <p>Plan around rainfall, soil moisture, drainage and crop stage. Flowering and grain or pod filling are often sensitive to water stress.</p>
+          </article>
+          <article class="learning-card">
+            <span class="learning-number">04 · CROP HEALTH</span>
+            <h3>Scout before you act</h3>
+            <p>Inspect fields regularly, identify the cause of damage and consider integrated pest management. Use crop-protection products only as locally approved and label-directed.</p>
+          </article>
+          <article class="learning-card">
+            <span class="learning-number">05 · HARVEST</span>
+            <h3>Dry and store safely</h3>
+            <p>Harvest at the crop’s maturity signs, dry produce thoroughly and store it in a clean, dry, pest-resistant place.</p>
+          </article>
+        </div>
+        <a class="button button-dark learning-link" href="practices.html">Explore crop-by-crop notes <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
     <section class="sources-section" id="sources">
       <div class="section-wrap sources-inner">
         <div>
@@ -143,7 +186,7 @@
   <footer class="site-footer">
     <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">F</span><span>FIELD NOTES <span class="brand-light">INDIA</span></span></a>
     <p>Made for learning. Check local recommendations before field application.</p>
-    <a href="#home">Back to top ↑</a>
+    <div class="footer-links"><a href="about.html">About us</a><a href="privacy.html">Privacy policy</a><a href="student.html">Student login</a><a href="#home">Back to top ↑</a></div>
   </footer>
 </body>
 </html>

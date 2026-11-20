@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student sign-in for Field Notes India using Google authentication.">
+  <meta name="theme-color" content="#183b2c">
+  <title>Student Login | Field Notes India</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+  <script type="module" src="student.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Field Notes India home">
+      <span class="brand-mark" aria-hidden="true">F</span>
+      <span>FIELD NOTES <span class="brand-light">INDIA</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#crops">Crop library</a>
+      <a href="practices.html">Field practices</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="login-section">
+      <div class="login-card">
+        <p class="eyebrow">FIELD NOTES INDIA · STUDENTS</p>
+        <h1>Welcome back.</h1>
+        <p class="login-intro">Sign in with Google to continue to your learning space.</p>
+        <div id="signed-out">
+          <button id="google-sign-in" class="google-button" type="button" disabled>
+            <svg aria-hidden="true" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.27 5.48-4.76 7.18l7.73 6C44.42 38.12 46.98 31.84 46.98 24.55z"/><path fill="#FBBC05" d="M10.53 28.59A14.4 14.4 0 0 1 9.75 24c0-1.59.27-3.13.76-4.59l-7.98-6.19A23.9 23.9 0 0 0 0 24c0 3.87.93 7.55 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.91-5.8l-7.73-6c-2.15 1.45-4.92 2.3-8.18 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+            Continue with Google
+          </button>
+        </div>
+        <div id="signed-in" class="signed-in-panel" hidden>
+          <img id="student-photo" class="student-photo" alt="" hidden>
+          <p>Signed in as <strong id="student-name"></strong></p>
+          <p id="student-email" class="student-email"></p>
+          <button id="sign-out" class="button button-dark" type="button">Sign out</button>
+        </div>
+        <p id="auth-status" class="auth-status" role="status" aria-live="polite">Checking sign-in setup…</p>
+        <p class="login-disclaimer">This sign-in does not verify school enrollment and does not protect the public learning pages. Do not enter sensitive student information here.</p>
+        <a class="text-link" href="privacy.html">Read the privacy policy</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">F</span><span>FIELD NOTES <span class="brand-light">INDIA</span></span></a>
+    <p>Made for learning. Check local recommendations before field application.</p>
+    <div class="footer-links"><a href="about.html">About us</a><a href="privacy.html">Privacy policy</a><a href="index.html#learning-notes">Study notes</a></div>
+  </footer>
+</body>
+</html>
