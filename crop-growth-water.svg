@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">Crop growth stages and water-sensitive periods</title>
+  <desc id="desc">A generic crop-stage timeline showing establishment, vegetative growth, flowering, pod or grain filling, and maturity, with extra attention to water around flowering and grain or pod filling.</desc>
+  <rect width="1100" height="430" rx="18" fill="#f5f8ee"/>
+  <text x="550" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#24452e">GENERIC CROP STAGE &amp; WATER CHECK</text>
+  <path d="M100 215H1000" stroke="#8a9c74" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1000 215l-22-15v30z" fill="#8a9c74"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle" fill="#26392b">
+    <g transform="translate(115 0)">
+      <circle cx="0" cy="215" r="18" fill="#e5c76a" stroke="#fff" stroke-width="4"/>
+      <text x="0" y="105" font-size="17" font-weight="700">ESTABLISH</text>
+      <text x="0" y="132" font-size="14"><tspan x="0">Germination</tspan><tspan x="0" dy="20">&amp; stand</tspan></text>
+      <text x="0" y="265" font-size="14"><tspan x="0">Moist seed zone;</tspan><tspan x="0" dy="20">avoid waterlogging</tspan></text>
+    </g>
+    <g transform="translate(330 0)">
+      <circle cx="0" cy="215" r="18" fill="#8cb56e" stroke="#fff" stroke-width="4"/>
+      <text x="0" y="105" font-size="17" font-weight="700">VEGETATIVE</text>
+      <text x="0" y="132" font-size="14"><tspan x="0">Roots, leaves,</tspan><tspan x="0" dy="20">canopy growth</tspan></text>
+      <text x="0" y="265" font-size="14"><tspan x="0">Avoid stress;</tspan><tspan x="0" dy="20">avoid excess N</tspan></text>
+    </g>
+    <g transform="translate(550 0)">
+      <circle cx="0" cy="215" r="25" fill="#e79a45" stroke="#fff" stroke-width="4"/>
+      <text x="0" y="105" font-size="17" font-weight="700">FLOWERING</text>
+      <text x="0" y="132" font-size="14"><tspan x="0">Flowering /</tspan><tspan x="0" dy="20">pollination</tspan></text>
+      <text x="0" y="265" font-size="14" font-weight="700"><tspan x="0">Often critical:</tspan><tspan x="0" dy="20">check moisture often</tspan></text>
+    </g>
+    <g transform="translate(770 0)">
+      <circle cx="0" cy="215" r="25" fill="#e79a45" stroke="#fff" stroke-width="4"/>
+      <text x="0" y="105" font-size="17" font-weight="700">POD / GRAIN FILL</text>
+      <text x="0" y="132" font-size="14"><tspan x="0">Seed or cane</tspan><tspan x="0" dy="20">yield formation</tspan></text>
+      <text x="0" y="265" font-size="14" font-weight="700"><tspan x="0">Often critical:</tspan><tspan x="0" dy="20">prevent severe stress</tspan></text>
+    </g>
+    <g transform="translate(980 0)">
+      <circle cx="0" cy="215" r="18" fill="#c7a86b" stroke="#fff" stroke-width="4"/>
+      <text x="0" y="105" font-size="17" font-weight="700">MATURITY</text>
+      <text x="0" y="132" font-size="14"><tspan x="0">Dry-down /</tspan><tspan x="0" dy="20">ripening</tspan></text>
+      <text x="0" y="265" font-size="14"><tspan x="0">Reduce/stop water</tspan><tspan x="0" dy="20">as crop requires</tspan></text>
+    </g>
+  </g>
+  <rect x="215" y="345" width="670" height="46" rx="12" fill="#e8eedb"/>
+  <text x="550" y="374" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#39433a">Stage timing differs by crop and variety. Follow the crop-specific critical stages in the book.</text>
+</svg>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Searchable India crop practices for soil, sowing, water, weeds, nutrition and harvest.">
+  <meta name="theme-color" content="#183b2c">
+  <title>Crop Practices | Field Notes India</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="practices.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Field Notes India home">
+      <span class="brand-mark" aria-hidden="true">F</span>
+      <span>FIELD NOTES <span class="brand-light">INDIA</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="index.html#overview">India snapshot</a>
+      <a href="index.html#crops">Crop library</a>
+      <a class="nav-book" href="Package_of_Practices_India.md">Markdown book <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="practice-hero">
+      <div class="practice-hero-inner">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> THE FIELD GUIDE · INDIA</p>
+        <h1>Crop practices,<br><em>clearly in one place.</em></h1>
+        <p>Find practical guidance by crop: suitable soil, planting window and method, water demand and critical stages, weeds, nutrient timing, and harvest signs.</p>
+        <div class="practice-hero-meta">
+          <span><strong id="practice-total">0</strong> crop guides</span>
+          <span>All-India reference · English</span>
+          <span>Reviewed against the companion practice book</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="practice-content section-wrap">
+      <div class="practice-alert">
+        <strong>Use local recommendations for the final field plan.</strong>
+        <span>Months, varieties, fertilizer rates and irrigation intervals vary by state, district, season and soil test. Doses below are indicative planning ranges—not universal prescriptions. Weed names are common examples; local weed flora varies. Confirm with your State Agricultural University (SAU), Krishi Vigyan Kendra (KVK) or agriculture department.</span>
+      </div>
+
+      <div class="practice-units">
+        <div><strong>Water</strong><span>mm/day is approximate crop evapotranspiration (ETc), not an irrigation depth. Rice-field seepage/percolation is additional.</span></div>
+        <div><strong>Nutrition</strong><span>Rates are kg/ha of N–P₂O₅–K₂O. Apply only after soil testing and follow the local split schedule.</span></div>
+        <div><strong>Productivity</strong><span>Yield ranges are indicative managed-field ranges, not official all-India averages. See the India snapshot for the estimate year and source.</span></div>
+      </div>
+
+      <section class="prep-panel" aria-labelledby="prep-title">
+        <div class="prep-copy">
+          <p class="eyebrow">BEFORE SOWING</p>
+          <h2 id="prep-title">A reliable land-preparation sequence</h2>
+          <ol>
+            <li><strong>Test and plan.</strong> Sample soil, map wet/dry patches, clear perennial weeds and plan drainage/irrigation.</li>
+            <li><strong>Work at the right moisture.</strong> Loosen only as needed; avoid tilling wet soil, compaction and excessive pulverizing.</li>
+            <li><strong>Amend from evidence.</strong> Incorporate well-rotted organic matter; apply lime, gypsum or nutrients only when the soil test/local recommendation calls for them.</li>
+            <li><strong>Make a crop-fit seedbed.</strong> Use a fine, firm bed for small seed; beds/ridges where drainage is needed. Puddle only for suitable lowland rice systems.</li>
+          </ol>
+        </div>
+        <img src="field-preparation.svg" alt="Four illustrated land-preparation steps: test and clear, loosen and level, amend and drain, then make the seedbed." loading="lazy">
+      </section>
+
+      <div class="practice-toolbar">
+        <label class="search-box">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <span class="visually-hidden">Search crop practices</span>
+          <input id="practice-search" type="search" placeholder="Search a crop, weed, stage or practice..." autocomplete="off">
+        </label>
+        <div id="practice-filters" class="filter-row" aria-label="Filter practices by crop group"></div>
+      </div>
+
+      <nav class="practice-index" aria-label="Crop practice index">
+        <span>JUMP TO</span>
+        <div id="practice-index-links"></div>
+      </nav>
+
+      <p class="practice-results" aria-live="polite"><strong id="practice-count">0</strong> matching practice guides</p>
+      <div id="practice-list" class="practice-list"></div>
+      <p id="practice-empty" class="empty-state" hidden>No crop practice matches your search. Clear the search or choose another group.</p>
+
+      <section class="practice-sources" aria-labelledby="practice-sources-title">
+        <div>
+          <p class="eyebrow">REFERENCES &amp; FIELD VERIFICATION</p>
+          <h2 id="practice-sources-title">Check the current local package.</h2>
+          <p>This guide is a general learning reference. Use the latest locally released recommendations for variety choice, exact sowing dates, seed rate, nutrients, and any registered weed-control product.</p>
+        </div>
+        <div class="practice-source-links">
+          <a href="https://desagri.gov.in/wp-content/uploads/2026/06/Time-Series-3rd-AE-2025-26-English.pdf" target="_blank" rel="noopener noreferrer">India crop production · 2025–26 Third Advance Estimate ↗</a>
+          <a href="https://desagri.gov.in/document-report-category/agriculture-statistics-at-a-glance/" target="_blank" rel="noopener noreferrer">Official area, production and yield statistics ↗</a>
+          <a href="https://icar.org.in/" target="_blank" rel="noopener noreferrer">ICAR and state agriculture guidance ↗</a>
+          <a href="Package_of_Practices_India.md">Open the companion practice book ↗</a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">F</span><span>FIELD NOTES <span class="brand-light">INDIA</span></span></a>
+    <p>Made for learning. Check local recommendations before field application.</p>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+</body>
+</html>
